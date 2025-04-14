@@ -1,0 +1,1 @@
+{"LightGBM": {"accuracy": 0.5295872700149179, "best_params": {"subsample": 0.8, "num_leaves": 31, "n_estimators": 300, "min_child_samples": 20, "max_depth": 10, "learning_rate": 0.01, "colsample_bytree": 0.6}}}
