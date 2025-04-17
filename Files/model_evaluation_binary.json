@@ -1,0 +1,61 @@
+{
+    "Logistic Regression": {
+        "accuracy": 0.6419691695673794,
+        "precision": 0.6419691695673794,
+        "best_param": {
+            "penalty": "l2",
+            "C": 0.1,
+            "solver": "newton-cg",
+            "max_iter": 200,
+            "class_weight": null,
+            "multi_class": "auto"
+        }
+    },
+    "Random Forest": {
+        "accuracy": 0.6474390850323223,
+        "precision": 0.6474390850323223,
+        "best_param": {
+            "n_estimators": 150,
+            "max_depth": 7,
+            "min_samples_split": 6,
+            "min_samples_leaf": 5,
+            "max_features": 0.5,
+            "class_weight": null
+        }
+    },
+    "SVM": {
+        "accuracy": 0.6432123321730482,
+        "precision": 0.6432123321730482,
+        "best_param": null
+    },
+    "Neural Network": {
+        "accuracy": 0.6427150671307807,
+        "precision": 0.6427150671307807,
+        "best_param": null
+    },
+    "LightGBM": {
+        "accuracy": 0.6469418199900547,
+        "precision": 0.6469418199900547,
+        "best_param": {
+            "subsample": 0.8,
+            "num_leaves": 31,
+            "n_estimators": 300,
+            "min_child_samples": 20,
+            "max_depth": 10,
+            "learning_rate": 0.01,
+            "colsample_bytree": 0.6
+        }
+    },
+    "XGBoost": {
+        "accuracy": 0.6486822476379911,
+        "precision": 0.6486822476379911,
+        "best_param": {
+            "n_estimators": 100,
+            "max_depth": 3,
+            "learning_rate": 0.1,
+            "subsample": 0.7,
+            "colsample_bytree": 1.0,
+            "gamma": 0.1
+        }
+    }
+}
